@@ -7,5 +7,17 @@ This module has 6 functions:
 - fitable_location (Function takes 3 arguments: films (list of films, which you can get from read_file), my_lat and my_lon - coordinates, which you enter to find way. fitable_location returns 10 the closest location to ones you entered)
 - the_biggest_num_of_films (Additional function takes 1 argument - list of lists from fitable_location. Every list has 3 elements (1 - coordinates of location, 2 - distance from distance_between_coord, 3 - number of films, which were shot in this location). Function returns 1 list, which has the biggest number of movies, which were shot)
 - create_map (Function for creating map, has 4 arguments: 1 - year, 2 - latitude, 3 - longitude, 4 - path to file. The result of the function is the creation of a file with a map, which must be opened in a browser in order to see the result)
-Example of input:
+
+## Example of input:
 ![Знімок екрана 2023-02-20 о 18 49 04](https://user-images.githubusercontent.com/116551880/220163987-6557182f-8d33-417c-b149-265b08ae2b30.png)
+
+## Result:
+![Знімок екрана 2023-02-20 о 18 55 24](https://user-images.githubusercontent.com/116551880/220164423-ca44c491-7738-4f76-a9ed-e8c54a223c52.png)
+
+Map has 4 layers:
+- Map
+- 10 closest movies 
+- Location, where were shot the biggest number of movies 
+- Location UCU
+
+As a result of the creation of the map, you can see up to 10 nearby locations where films were shot in a certain year, the number of films shot in that city, find out the place where the most films were shot, and also see the location of UCU.
